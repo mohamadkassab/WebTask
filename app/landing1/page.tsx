@@ -49,7 +49,7 @@ export default function Landing1() {
           </div>
         </div>
 
-        <div className="absolute top-[100%] w-full -translate-y-1/2 grid grid-cols-3 gap-3 md:gap-5   md:pl-[110px]">
+        <div className="absolute top-[100%] w-full -translate-y-2/5 sm:-translate-y-1/2 grid grid-cols-3 gap-3 md:gap-5   md:pl-[110px]">
           <div className="flex col-span-3 md:col-span-1 justify-center md:justify-start  w-full">
           <div className="relative w-[280px] h-[280px] md:w-[310px] md:h-[310px]">
               <Image
