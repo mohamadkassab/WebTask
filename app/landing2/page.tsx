@@ -68,7 +68,7 @@ export default function Landing2() {
       </div>
 
       {/*Features Display on small devices  */}
-      <div className="flex lg:hidden mt-[30%] lg:mt-[40%]  items-center justify-center w-full px-4">
+      <div className="flex lg:hidden mt-[50%] md:mt-[30%]   items-center justify-center w-full px-4">
         <Features></Features>
       </div>
 
