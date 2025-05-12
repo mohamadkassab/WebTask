@@ -89,7 +89,7 @@ export default function Landing2() {
                priority
              />
            </div>
-           <div className="absolute inset-0 top-[90%] w-full text-xs text-center">
+           <div className="absolute inset-0 top-[80%] w-full text-xs text-center">
              <p className="font-medium group-hover:text-hover">
                {item?.name}
              </p>

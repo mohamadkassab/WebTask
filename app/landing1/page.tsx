@@ -51,7 +51,7 @@ export default function Landing1() {
         </div>
 
         <div className="absolute top-[100%] w-full -translate-y-2/5 sm:-translate-y-1/2 grid grid-cols-3 gap-3 md:gap-5   lg:pl-[110px]">
-          <div className="flex col-span-3 lg:col-span-1 justify-center lg:justify-start  w-full">
+          <div className="flex col-span-3 lg:col-span-1 justify-center lg:justify-start lg:pl-[10px] w-full">
           <div className="relative w-[280px] h-[280px] md:w-[310px] md:h-[310px]">
               <Image
                 src="/chocolate application.png"
@@ -91,7 +91,7 @@ export default function Landing1() {
                priority
              />
            </div>
-           <div className="absolute inset-0 top-[90%] w-full text-xs text-center">
+           <div className="absolute inset-0 top-[80%] w-full text-xs text-center">
              <p className="font-medium group-hover:text-hover">
                {item?.name}
              </p>
