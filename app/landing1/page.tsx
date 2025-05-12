@@ -7,8 +7,9 @@ export default function Landing1() {
     <div className="h-full w-full pb-[2rem]">
       <div className="relative w-screen pt-hero bg-hero-1">
         <div className="grid grid-cols-3 gap-3 md:gap-5 mt-8 md:mt-0 pl-[2%] md:pl-[4%]">
+
           {/*Hero C Image Show on Large Devices */}
-          <div className="flex hidden md:block justify-end pt-[50%] md:pt-[30%] relative h-full">
+          <div className="flex hidden lg:block justify-end pt-[50%] md:pt-[30%] relative h-full">
             <div className="relative w-full h-full aspect-[2/1] flex justify-center">
               <Image
                 src="/c-letter.png"
@@ -20,9 +21,9 @@ export default function Landing1() {
             </div>
           </div>
 
-          <div className="relative col-span-3 md:col-span-2 pb-[20%] px-[10%] md:pr-[14%]">
+          <div className="relative col-span-3 lg:col-span-2 pt-[10%] pb-[20%] px-[10%] lg:pr-[14%]">
             {/*Hero C Image Show on small Devices */}
-            <div className="absolute inset-0 md:hidden w-full h-full aspect-[2/1] flex justify-center z-[0]">
+            <div className="absolute inset-0 lg:hidden w-full h-full aspect-[2/1] flex justify-center z-[0]">
               <Image
                 src="/c-letter.png"
                 alt="C"
@@ -49,8 +50,8 @@ export default function Landing1() {
           </div>
         </div>
 
-        <div className="absolute top-[100%] w-full -translate-y-2/5 sm:-translate-y-1/2 grid grid-cols-3 gap-3 md:gap-5   md:pl-[110px]">
-          <div className="flex col-span-3 md:col-span-1 justify-center md:justify-start  w-full">
+        <div className="absolute top-[100%] w-full -translate-y-2/5 sm:-translate-y-1/2 grid grid-cols-3 gap-3 md:gap-5   lg:pl-[110px]">
+          <div className="flex col-span-3 lg:col-span-1 justify-center lg:justify-start  w-full">
           <div className="relative w-[280px] h-[280px] md:w-[310px] md:h-[310px]">
               <Image
                 src="/chocolate application.png"
@@ -62,31 +63,31 @@ export default function Landing1() {
           </div>
 
           {/* Features Display on large devices  */}
-          <div className="col-span-2 hidden md:flex items-center justify-start w-full px-10">
+          <div className="col-span-2 hidden lg:flex items-center justify-start w-full lg:px-10">
             <Features></Features>
           </div>
         </div>
       </div>
 
       {/*Features Display on small devices  */}
-      <div className="flex md:hidden mt-[40%]  items-center justify-center w-full px-4">
+      <div className="flex lg:hidden mt-[30%] lg:mt-[40%]  items-center justify-center w-full px-4">
         <Features></Features>
       </div>
 
- <div className="mt-[4rem] md:mt-[10rem] p-4 relative">
-   <div className="absolute inset-0 flex justify-center items-center pb-[4rem] md:pb-[12rem] text-white opacity-30">
-     <span className="text-[4rem] md:text-[8rem] font-bold">Displays</span>
+ <div className="mt-[4rem] lg:mt-[10rem] p-4 relative">
+   <div className="absolute inset-0 flex justify-center items-center pb-[4rem] lg:pb-[12rem] text-white opacity-30">
+     <span className="text-[4rem] lg:text-[8rem] font-bold">Displays</span>
    </div>
-   <div className="flex flex-wrap gap-4 md:gap-0 justify-center relative">
+   <div className="flex flex-wrap flex-col lg:flex-row items-center gap-4 lg:gap-0 justify-center relative">
      {productsImagesHero1?.map((item, index) => {
        return (
-         <div key={index} className="relative md:w-1/4 w-full group cursor-pointer">
+         <div key={index} className="relative lg:w-1/4 w-full group cursor-pointer">
            <div className="relative w-full h-[500px] aspect-[2/1] flex flex-col justify-center items-center">
              <Image
                src={item?.path}
                alt={item?.name}
                fill
-               style={{ objectFit: "cover" }}
+               style={{ objectFit: "contain" }}
                priority
              />
            </div>

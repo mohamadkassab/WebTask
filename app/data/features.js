@@ -10,17 +10,17 @@
     },
     {
       features: [
-        { title: "Advanced Feature 1", author: "John Doe" },
-        { title: "Advanced Feature 2", author: "Jane Smith" },
-        { title: "Advanced Feature 3", author: "Alex Johnson" }
+        { title: "Feature 4", author: "John Doe" },
+        { title: "Feature 5", author: "Jane Smith" },
+        { title: "Feature 6", author: "Alex Johnson" }
       ],
       title: "Advanced features highlight"
     },
     {
       features: [
-        { title: "Premium Feature 1", author: "Sarah Wilson" },
-        { title: "Premium Feature 2", author: "Mike Brown" },
-        { title: "Premium Feature 3", author: "Lisa Garcia" }
+        { title: "Feature 7", author: "Sarah Wilson" },
+        { title: "Feature 8", author: "Mike Brown" },
+        { title: "Feature 9", author: "Lisa Garcia" }
       ],
       title: "Premium features collection"
     }
